@@ -14,8 +14,10 @@ This repository contains 100+ numbered scripts from 01 → 101 plus supporting a
 ## Overview
 - Purpose: Learn Python step‑by‑step with runnable examples
 - Scope: Basics, Advanced, OOP, Functional, File I/O, Concurrency, GUI
+- Explained: Every script includes in‑code explanations and practice‑ready snippets
 - Projects: Games and utilities (Calculator, Text Editor, Clock, RPS, Quiz, Tic‑Tac‑Toe, Snake)
 - Platform: Windows (PowerShell), cross‑platform friendly where applicable
+- Free & Open Source: 0 rupees — MIT licensed
 
 ---
 
@@ -232,11 +234,6 @@ This project is licensed under the MIT License – see [LICENSE](LICENSE) for de
 
 ---
 
-## Suggested GitHub Topics
-
-`python` • `learning-path` • `beginner-friendly` • `intermediate` • `advanced` • `tkinter` • `desktop-app` • `games` • `educational` • `examples` • `snippets` • `cli` • `file-io` • `oop` • `functional-programming` • `multithreading` • `multiprocessing` • `email` • `packaging`
-
----
 
 ## Acknowledgements
 
