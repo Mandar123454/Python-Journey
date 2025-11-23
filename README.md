@@ -20,6 +20,19 @@ View the GitHub Pages landing site here:
 
 ---
 
+## Features
+- 100+ Numbered, explained scripts (foundations → advanced → GUI → projects)
+- Live landing page with search, stats, theme toggle, and responsive layout
+- Client‑side search filtering for concepts & projects (instant results)
+- Offline support via Service Worker (`sw.js`) – first visit caches essentials
+- JSON index (`scripts.json`) for potential future integrations or tooling
+- Favicon & social preview meta tags for better sharing
+- Light/Dark theme toggle with local storage preference
+- Zero cost (0 rupees), free & open-source under MIT
+- Structured learning path: incremental difficulty and practice‑ready examples
+
+---
+
 ## Overview
 - Purpose: Learn Python step‑by‑step with runnable examples
 - Scope: Basics, Advanced, OOP, Functional, File I/O, Concurrency, GUI
@@ -50,6 +63,13 @@ python "01_main.py"
 python "38_Rock,Paper,Scissors Game.py"
 python "99_Text Editor Program.py"
 ```
+
+---
+
+## Search & Offline Usage
+- Use the search bar on the live site to filter scripts by keyword (e.g. "loop", "game", "inheritance").
+- Offline: After first load, core assets (index, README, script index) are cached. Reload works even without connection.
+- To force refresh cache: Clear browser site data or open dev tools → Application → Clear storage.
 
 ---
 
@@ -240,6 +260,13 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) and follow the
 ## License
 
 This project is licensed under the MIT License – see [LICENSE](LICENSE) for details.
+
+---
+
+## GitHub Pages / Deployment
+- Hosted via GitHub Pages from branch `main` root with `.nojekyll` to serve raw structure.
+- Update flow: modify files → commit → push; Pages rebuild automatically.
+- Entry point: `index.html` (contains search, theme toggle, and service worker registration).
 
 ---
 
