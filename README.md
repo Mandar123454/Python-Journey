@@ -14,7 +14,7 @@ This repository contains 100+ numbered scripts from 01 → 101 plus supporting a
 ## Live Demo
 View the GitHub Pages landing site here:
 
-➡️ https://mandar123454.github.io/Python-Journey/
+➡️ https://mkpythonjourney.netlify.app/
 
 (Served directly from `index.html` with `.nojekyll` disabling Jekyll processing.)
 
