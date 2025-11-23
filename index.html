@@ -4,7 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="Python Journey: Free open-source end-to-end Python learning path with 100+ explained examples and projects." />
+  <link rel="canonical" href="https://mandar123454.github.io/Python-Journey/" />
+  <meta property="og:title" content="Python Journey – Free 100+ Script Learning Path" />
+  <meta property="og:description" content="Free & open-source end-to-end Python learning path: explained basics to advanced, GUI and projects." />
+  <meta property="og:url" content="https://mandar123454.github.io/Python-Journey/" />
+  <meta property="og:image" content="https://socialify.git.ci/Mandar123454/Python-Journey/image?description=1&language=1&owner=1&pattern=Floating%20Cogs&theme=Dark" />
+  <meta name="twitter:card" content="summary_large_image" />
   <title>Python Journey • Free Learning Path</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d1117'/%3E%3Ctext x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='44' font-family='Segoe UI Emoji' %3E🐍%3C/text%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -40,7 +47,7 @@
     header { padding: clamp(2rem,4vw,4rem) 2rem 2rem; position:relative; overflow:hidden; }
     header::before { content:""; position:absolute; inset:0; background: radial-gradient(circle at 30% 20%, rgba(95,210,169,0.25), transparent 60%), radial-gradient(circle at 70% 60%, rgba(167,139,250,0.18), transparent 70%); filter: blur(40px); opacity:.6; pointer-events:none; }
     .hero { max-width: 1000px; margin:0 auto; text-align:center; animation: fadeIn .9s ease; }
-    .hero h1 { font-size: clamp(2.2rem,5vw,3.4rem); background: var(--gradient); -webkit-background-clip: text; color: transparent; margin:0 0 1rem; }
+    .hero h1 { font-size: clamp(2.2rem,5vw,3.4rem); background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent; margin:0 0 1rem; }
     .tagline { font-size: clamp(1rem,2.2vw,1.35rem); color: var(--muted); line-height:1.5; max-width:800px; margin: 0 auto 1.5rem; }
     .badges { display:flex; flex-wrap:wrap; gap:.75rem; justify-content:center; margin-bottom:1.5rem; }
     .badge { padding:.5rem .9rem; background: var(--bg-alt); border:1px solid var(--border); border-radius: 30px; font-size:.75rem; font-weight:600; letter-spacing:.5px; display:inline-flex; align-items:center; gap:.35rem; position:relative; overflow:hidden; }
@@ -81,7 +88,7 @@
     @media(min-width:580px){ .projects { grid-template-columns:repeat(2,1fr); } }
     .project { background: linear-gradient(140deg, rgba(95,210,169,.12), rgba(55,148,255,.12)); border:1px solid var(--border); border-radius: var(--radius); padding:1rem 1.1rem; position:relative; overflow:hidden; display:flex; flex-direction:column; gap:.45rem; backdrop-filter: blur(2px); animation: fadeIn .7s ease; }
     .project h3 { margin:0; font-size:1rem; }
-    .project span { font-size:.65rem; letter-spacing:.5px; font-weight:600; background: var(--gradient); -webkit-background-clip:text; color:transparent; }
+    .project span { font-size:.65rem; letter-spacing:.5px; font-weight:600; background: var(--gradient); -webkit-background-clip:text; background-clip:text; color:transparent; }
     .project p { margin:0; font-size:.72rem; color: var(--muted); line-height:1.4; }
     .project a { font-size:.72rem; font-weight:600; color: var(--accent); text-decoration:none; margin-top:auto; }
     .project a:hover { text-decoration:underline; }
@@ -89,7 +96,7 @@
     .stats { display:flex; flex-wrap:wrap; gap:1rem; margin-top:2rem; }
     .stat { flex:1 1 150px; background: var(--bg-alt); border:1px solid var(--border); border-radius: var(--radius); padding:.9rem 1rem; position:relative; overflow:hidden; }
     .stat h3 { margin:0 0 .3rem; font-size:.8rem; letter-spacing:.5px; font-weight:600; color: var(--muted); }
-    .stat .value { font-size:1.8rem; font-weight:700; background: var(--gradient); -webkit-background-clip:text; color:transparent; }
+    .stat .value { font-size:1.8rem; font-weight:700; background: var(--gradient); -webkit-background-clip:text; background-clip:text; color:transparent; }
 
     .theme-toggle { position:fixed; bottom:1rem; right:1rem; z-index:50; }
     .toggle-btn { background: var(--bg-alt); border:1px solid var(--border); color: var(--accent); padding:.65rem .9rem; font-size:.75rem; font-weight:600; border-radius: 10px; cursor:pointer; box-shadow:0 4px 14px -6px rgba(0,0,0,.4); }
@@ -117,6 +124,9 @@
         <div class="badge">🎮 Projects</div>
         <div class="badge">🪟 Tkinter GUI</div>
         <div class="badge">🚀 Open Source</div>
+      </div>
+      <div style="max-width:620px;margin:0.5rem auto 1.6rem;">
+        <input id="searchInput" placeholder="Search scripts (type e.g. 'loop' or 'game')" aria-label="Search scripts" style="width:100%;padding:.85rem 1rem;border:1px solid var(--border);background:var(--bg-alt);color:var(--text);border-radius:12px;font-family:Inter;font-size:.85rem;outline:none;" />
       </div>
       <div class="actions">
         <a class="btn" href="https://github.com/Mandar123454/Python-Journey" target="_blank" rel="noopener">View on GitHub</a>
@@ -193,10 +203,10 @@ python "99_Text Editor Program.py"</pre></div>
     ];
 
     const conceptListEl = document.getElementById('conceptList');
-    conceptListEl.innerHTML = concepts.map(c=>`<a href="${c}" target="_blank" rel="noopener">${c}</a>`).join('');
+    conceptListEl.innerHTML = concepts.map(c=>`<a data-type="concept" data-name="${c.toLowerCase()}" href="${c}" target="_blank" rel="noopener">${c}</a>`).join('');
 
     const projectsEl = document.getElementById('projects');
-    projectsEl.innerHTML = projects.map(p=>`<div class='project'><h3>${p.title}</h3><span>${p.file}</span><p>${p.desc}</p><a href='${p.file}' target='_blank' rel='noopener'>Open Script →</a></div>`).join('');
+    projectsEl.innerHTML = projects.map(p=>`<div class='project' data-type='project' data-name='${(p.title + ' ' + p.file + ' ' + p.desc).toLowerCase()}'><h3>${p.title}</h3><span>${p.file}</span><p>${p.desc}</p><a href='${p.file}' target='_blank' rel='noopener'>Open Script →</a></div>`).join('');
 
     // Stats
     const stats = [
@@ -216,6 +226,29 @@ python "99_Text Editor Program.py"</pre></div>
       root.classList.toggle('light');
       localStorage.setItem('pj-theme', root.classList.contains('light') ? 'light' : 'dark');
     });
+
+    // Client-side search filtering
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('input', ()=>{
+      const term = searchInput.value.trim().toLowerCase();
+      const conceptLinks = document.querySelectorAll('#conceptList a');
+      const projectCards = document.querySelectorAll('#projects .project');
+      conceptLinks.forEach(a=>{
+        if(!term || a.dataset.name.includes(term)) { a.style.display='block'; }
+        else { a.style.display='none'; }
+      });
+      projectCards.forEach(card=>{
+        if(!term || card.dataset.name.includes(term)) { card.style.display='flex'; }
+        else { card.style.display='none'; }
+      });
+    });
+
+    // Register Service Worker for offline support
+    if('serviceWorker' in navigator) {
+      window.addEventListener('load', ()=>{
+        navigator.serviceWorker.register('sw.js').catch(err=>console.warn('SW reg failed', err));
+      });
+    }
   </script>
 </body>
 </html>
