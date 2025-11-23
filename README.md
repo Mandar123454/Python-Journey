@@ -11,6 +11,15 @@ This repository contains 100+ numbered scripts from 01 → 101 plus supporting a
 
 ---
 
+## Live Demo
+View the GitHub Pages landing site here:
+
+➡️ https://mandar123454.github.io/Python-Journey/
+
+(Served directly from `index.html` with `.nojekyll` disabling Jekyll processing.)
+
+---
+
 ## Overview
 - Purpose: Learn Python step‑by‑step with runnable examples
 - Scope: Basics, Advanced, OOP, Functional, File I/O, Concurrency, GUI
