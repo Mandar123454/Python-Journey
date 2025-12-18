@@ -263,13 +263,6 @@ This project is licensed under the MIT License – see [LICENSE](LICENSE) for de
 
 ---
 
-## GitHub Pages / Deployment
-- Hosted via GitHub Pages from branch `main` root with `.nojekyll` to serve raw structure.
-- Update flow: modify files → commit → push; Pages rebuild automatically.
-- Entry point: `index.html` (contains search, theme toggle, and service worker registration).
-
----
-
 
 ## Acknowledgements
 
